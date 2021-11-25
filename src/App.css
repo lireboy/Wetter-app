@@ -1,0 +1,124 @@
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+
+img {
+  max-width: 100%;
+}
+
+ul,
+ol {
+  list-style: none;
+  padding: 1%;
+  margin: 1%;
+}
+
+:root {
+  background: #484848;
+}
+
+:root {
+  --general-font: sans-serif;
+  --text-color: white;
+  --background-color: #484848;
+  --main-color: #FC642D;
+  --seondary-color: #00A699;
+  --tertiary-color: #555555;
+  --link-color: blue;
+
+}
+
+:root {
+  font-family: var(--general-font) ;
+  font-size: 16px;
+  line-height: 1.5;
+  color: var(--text-color);
+  letter-spacing: 0.8px;
+}
+
+header{
+  text-align: center;
+}
+
+body{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items:center;
+  justify-content: space-around;
+  margin: 5% !important;
+  
+}
+
+.containerCol{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  margin: 5%;
+  padding: 5%;
+  background-color: var(--tertiary-color);
+  transition: all .1s ease-in-out;
+}
+.containerCol:hover{
+  transform: scale(1.1);
+}
+.containerRow{
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  margin: 1%;
+  padding: 1%;
+  background-color: var(--tertiary-color);
+}
+h1 {
+  font-size: 1.5rem;
+}
+
+h2 {
+  font-size: 1.3rem;
+}
+
+h3,
+p {
+  font-size: 1rem;
+}
+
+
+
+nav {
+  font-size: 1rem;
+}
+nav li {
+  background-color: transparent;
+}
+nav li:hover {
+  background-color: var(--seondary-color);  
+}
+nav li a {
+  color: white;
+}
+
+main,
+nav {
+  width: 90%;
+  padding: 5%;
+  margin: 1% auto;
+}
+
+article{
+  background-color: var(--tertiary-color);
+}
+
+
+article {
+  padding: 10px;
+  margin-bottom: 20px;
+}
+
+/*# sourceMappingURL=styles.css.map */
